@@ -11,6 +11,6 @@ public class HistogramBuilder<Type> {
                 histogram.put(type, 1);
             }
         }
-       return null;
+       return histogram;
     }
 }
